@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   env: {
-    DB_LOCAL_URI: 'mongodb+srv://bookit_db_admin:juOTqyu7AxyeQANY@cluster0.ytmz5.mongodb.net/BookItDB?retryWrites=true&w=majority'
+    DB_LOCAL_URI: process.env.MONGODB_URL
   }
 }
 
