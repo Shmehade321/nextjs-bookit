@@ -2,7 +2,7 @@ const Room = require('../models/room')
 const mongoose = require('mongoose')
 const rooms = require('../data/rooms')
 
-mongoose.connect('mongodb+srv://bookit_db_admin:juOTqyu7AxyeQANY@cluster0.ytmz5.mongodb.net/BookItDB?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://bookit_db_admin:C2pdpClREsuRNfaQ@cluster0.ytmz5.mongodb.net/BookItDB?retryWrites=true&w=majority', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 }).then(con => console.log(`Successfully Connected to Database`))

@@ -2,8 +2,13 @@ import React from "react";
 import { Box, Typography, Container, Button, Grid } from "@mui/material";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import RoomItem from "./room/RoomItem";
+import { useSelector } from "react-redux";
 
 const Home = () => {
+
+  const {rooms} = useSelector(state => state.allRooms)
+  console.log(rooms)
+
   return (
     <>
       <Box sx={{ width: "100%" }}>
